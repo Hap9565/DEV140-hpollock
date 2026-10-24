@@ -1,0 +1,88 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b0e0e6;
+    color: #243447;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Main page heading */
+h1 {
+    color: #ffffff;
+    background-color: #174a6e;
+    padding: 25px;
+    margin: 0;
+    border: 3px solid #0d324d;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #d9eaf7;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #174a6e;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #174a6e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Main content sections */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #c4d9e8;
+}
+
+/* Section headings */
+h2 {
+    color: #174a6e;
+    border-bottom: 2px solid #4a90b8;
+    padding-bottom: 8px;
+}
+
+/* Subsection headings */
+h3 {
+    color: #2878a5;
+}
+
+/* Image styling */
+figure {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #c4d9e8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #174a6e;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border: 3px solid #0d324d;
+}
