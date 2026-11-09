@@ -418,7 +418,7 @@ nav a[aria-current="page"] {
     border: 1px solid #d4af37;
     border-radius: 5px;
     background-color: #d4af37;
-    color: #080808;
+    color: #0808#d4af3708;
     font: inherit;
     font-weight: 700;
     cursor: pointer;
@@ -426,7 +426,7 @@ nav a[aria-current="page"] {
 }
 
 .contact-form button:hover {
-    background-color: #e6c65c;
+    background-color: #e6c6#d4af375c;
 }
 
 /* 10. FOOTER NAVIGATION */
