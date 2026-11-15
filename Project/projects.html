@@ -1,33 +1,90 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="aboutme.html">About</a></li>
-        </ul>
-    </nav>
-</header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <meta name="description" content="Explore the projects in my WEB DEV140 portfolio.">
+    <title>Projects | My WEB DEV140 Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Projects</h1>
+
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Portfolio home">LOGO</a>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="aboutme.html">About</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h2>Project 1</h2>
-            <p>Description of Project 1.</p>
-        </section>
-        <section>
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-        </section>
+
+    <main class="projects-main">
+        <h1>My Projects</h1>
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image" role="img"
+                     aria-label="Placeholder for Project One image">
+                    Project Image
+                </div>
+                <h2>Project One</h2>
+                <p>
+                    A brief description of this project and what
+                    it involves.
+                </p>
+                <span class="project-link" aria-hidden="true"></span>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image" role="img"
+                     aria-label="Placeholder for Project Two image">
+                    Project Image
+                </div>
+                <h2>Project Two</h2>
+                <p>
+                    A brief description of this project and what
+                    it involves.
+                </p>
+                <span class="project-link" aria-hidden="true"></span>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image" role="img"
+                     aria-label="Placeholder for Project Three image">
+                    Project Image
+                </div>
+                <h2>Project Three</h2>
+                <p>
+                    A brief description of this project and what
+                    it involves.
+                </p>
+                <span class="project-link" aria-hidden="true"></span>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image" role="img"
+                     aria-label="Placeholder for Project Four image">
+                    Project Image
+                </div>
+                <h2>Project Four</h2>
+                <p>
+                    A brief description of this project and what
+                    it involves.
+                </p>
+                <span class="project-link" aria-hidden="true"></span>
+            </article>
+
+        </div>
     </main>
+
+    <footer>
+        <p>&copy; 2026 Hunter Pollock. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>

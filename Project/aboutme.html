@@ -1,26 +1,133 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="aboutme.html">About</a></li>
-        </ul>
-    </nav>
-</header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <meta name="description" content="Learn about me and find contact information in my WEB DEV140 portfolio.">
+    <title>About | My WEB DEV140 Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h3>About me</h3>
+
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Portfolio home">LOGO</a>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html" aria-current="page">About</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <p>This is the about page of my WEB DEV140 project. Here you can learn more about me and my work.</p>
+        <div class="about-contact">
+
+            <section aria-labelledby="about-heading">
+                <div class="about-intro">
+                    <div class="profile-image"
+                         role="img"
+                         aria-label="Profile image placeholder">
+                    </div>
+
+                    <div>
+                        <h1 id="about-heading">About Me</h1>
+                        <p>
+                            I am currently learning web development
+                            and building my skills in HTML, CSS,
+                            accessibility, and responsive design.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-description">
+                    <p>
+                        This is the about page of my WEB DEV140
+                        project. Here you can learn more about me
+                        and my work.
+                    </p>
+                    <p>
+                        My goal is to continue developing my
+                        technical skills and create websites
+                        that are useful, accessible, and easy
+                        to navigate.
+                    </p>
+                </div>
+            </section>
+
+            <section aria-labelledby="contact-heading">
+                <h2 id="contact-heading">Contact</h2>
+
+                <div class="contact-links">
+                    <a href="mailto:email@example.com">
+                        Email: email@example.com
+                    </a>
+
+                    <a href="https://www.linkedin.com/">
+                        LinkedIn profile
+                    </a>
+
+                    <a href="https://github.com/">
+                        GitHub profile
+                    </a>
+                </div>
+
+                <form class="contact-form" action="#" method="get">
+
+                    <div>
+                        <label for="name">Your Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required
+                            aria-describedby="name-help">
+                        <small id="name-help">
+                            Required field.
+                        </small>
+                    </div>
+
+                    <div>
+                        <label for="email">Your Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                            aria-describedby="email-help">
+                        <small id="email-help">
+                            Enter a valid email address.
+                        </small>
+                    </div>
+
+                    <div class="full-width">
+                        <label for="message">Your Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            required
+                            aria-describedby="message-help"></textarea>
+                        <small id="message-help">
+                            Required field.
+                        </small>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </section>
+
+        </div>
     </main>
+
+    <footer>
+        <p>&copy; 2026 Hunter Pollock. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>

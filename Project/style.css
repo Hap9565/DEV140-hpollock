@@ -577,3 +577,31 @@ nav a[aria-current="page"] {
         padding: 12px 8px;
     }
 }
+
+/* Accessible form help text */
+
+.contact-form small {
+    display: block;
+    margin-top: 4px;
+    color: #cccccc;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.contact-form input:invalid:not(:focus):not(:placeholder-shown) {
+    border-color: #e6c65c;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #e6c65c;
+    outline-offset: 4px;
+}
+
+/* Keep the profile placeholder visible */
+
+.profile-image {
+    display: grid;
+    place-items: center;
+    background-color: #101010;
+}
